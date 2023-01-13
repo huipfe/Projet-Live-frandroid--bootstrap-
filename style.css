@@ -1,1 +1,12 @@
-/*# sourceMappingURL=style.css.map */
+.list-item-categorie {
+  min-width: 3.5rem;
+}
+
+.list-item-categorie img {
+  max-width: 30px;
+  display: block;
+}
+
+.list-item-categorie a {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
