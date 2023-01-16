@@ -77,4 +77,8 @@ body {
 
 .list-item-categorie:hover:after {
   width: 2rem;
+}
+
+.title-pubBar {
+  font-size: 17px;
 }/*# sourceMappingURL=style.css.map */
