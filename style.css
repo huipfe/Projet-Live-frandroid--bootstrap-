@@ -94,4 +94,8 @@ body {
 #barcolorsBackground {
   background-image: url("https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/eecc6ea811fd19d92d88.svg");
   background-repeat: no-repeat;
+}
+
+#navbarSupportedContent {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
