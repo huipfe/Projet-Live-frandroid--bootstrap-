@@ -36,6 +36,13 @@ body {
   --wp--preset--font-size--medium: 20px;
   --wp--preset--font-size--large: 36px;
   --wp--preset--font-size--x-large: 42px;
+  /* Changer la couleur du texte danger rose*/
+  --bs-danger-rgb: 255,117,179;
+}
+
+.text-bg-danger {
+  color: #fff !important;
+  background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .list-item-categorie {
@@ -81,8 +88,10 @@ body {
 
 .title-pubBar {
   font-size: 17px;
+  margin-top: -10px;
 }
 
-#barColorBackground {
-  background-image: src("https: //www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/eecc6ea811fd19d92d88.svg");
+#barcolorsBackground {
+  background-image: url("https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/eecc6ea811fd19d92d88.svg");
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
