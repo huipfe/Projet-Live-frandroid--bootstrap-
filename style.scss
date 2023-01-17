@@ -144,3 +144,51 @@ overflow-x: auto;
         cursor: pointer;
 
 }
+
+.megaMenu a{
+color: white;
+text-decoration: none;
+}
+
+.megaMenu a:hover {
+color: var(--wp--preset--color--luminous-vivid-amber);
+}
+
+.megaMenu li {
+list-style: none;
+}
+
+.megaMenu .megaMenu-categorie{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+.megaMenu .megaMenu-categorie-title {
+    color: var(--wp--preset--color--luminous-vivid-amber);
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+
+.megaMenu .megaMenu-categorie-title:hover {
+    color: white;
+}
+
+.megaMenu .megaMenu-categorie-title:hover::after {
+    margin-left: 10px;
+}
+
+/* Sous Menu */
+.megaMenu .megaMenu-categorie ul li {
+    font-weight: bolder;
+}
+
+/* Sous sous Menu*/
+.megaMenu .megaMenu-categorie ul li ul li {
+    font-weight: normal;
+}
+.megaMenu .megaMenu-categorie ul li ul {
+    border-left: solid 1px gray;
+    margin-bottom: 10px;
+}
