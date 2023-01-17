@@ -40,6 +40,13 @@ body {
   --bs-danger-rgb: 255,117,179;
 }
 
+/* Modifier la largeur de mon container*/
+/* Pour la taille XL*/
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 1000px;
+  }
+}
 .text-bg-danger {
   color: #fff !important;
   background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
@@ -97,5 +104,24 @@ body {
 }
 
 #navbarSupportedContent {
+  width: 100%;
+}
+
+.menu-item-colored {
+  text-decoration: none;
+  display: block;
+}
+
+.menu-item-colored::after {
+  width: 2rem;
+  content: "";
+  display: block;
+  margin-top: 5px;
+  height: 2px;
+  background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan);
+  transition: width 0.2s ease-in-out;
+}
+
+.menu-item-colored:hover::after {
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
