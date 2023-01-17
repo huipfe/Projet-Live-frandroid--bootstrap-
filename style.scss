@@ -36,9 +36,12 @@ body {
     --wp--preset--font-size--large: 36px;
     --wp--preset--font-size--x-large: 42px;
 
-    /* Changer la couleur du texte danger rose*/
-    --bs-danger-rgb : 255,117,179;
-
+    /* Changer la couleur du texte */
+    --bs-danger-rgb : 255,117,179; /*Guides */
+    --bs-warning-rgb : 255,124,107; /* Bon plans*/
+    --bs-success-rgb : 135,227,207; /* Tests*/
+    --bs-info-rgb : 87,112,255;   /*Actus */
+    --bs-primary-rgb : 184,107,255;  /*Tutos */
 }
 
 
@@ -114,6 +117,7 @@ overflow-x: auto;
 .menu-item-colored {
     text-decoration: none;
     display: block;
+    font-size: 20px;
 }
 
 .menu-item-colored::after {
