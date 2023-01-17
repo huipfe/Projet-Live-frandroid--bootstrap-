@@ -41,7 +41,7 @@ body {
   --bs-warning-rgb: 255,124,107; /* Bon plans*/
   --bs-success-rgb: 135,227,207; /* Tests*/
   --bs-info-rgb: 87,112,255; /*Actus */
-  --bs-primary-rgb: 184,107,255; /*Tutos */
+  /* --bs-primary-rgb : 184,107,255;  /*Tutos */
 }
 
 /* Modifier la largeur de mon container*/
@@ -129,4 +129,14 @@ body {
 
 .menu-item-colored:hover::after {
   width: 100%;
+}
+
+.social-links {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.social-links i:hover {
+  color: var(--wp--preset--color--vivid-purple);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
