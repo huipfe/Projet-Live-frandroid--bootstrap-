@@ -224,8 +224,18 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-.article-block .article-image img {
-  width: 100%;
+.article-block .article-image {
+  position: absolute;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.article-block .article-image picture {
+  border-radius: inherit;
+}
+
+.article-block .article-image picture img {
+  border-radius: inherit;
 }
 
 .article-block .article-image picture::after {
@@ -238,4 +248,13 @@ h2 {
   height: 100%;
   background: -webkit-linear-gradient(45deg, #5770ff, #b86bff);
   opacity: 0.5;
+  border-radius: inherit;
+}
+
+.article-link {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
