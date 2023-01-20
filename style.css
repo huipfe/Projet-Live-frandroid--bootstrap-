@@ -247,7 +247,7 @@ h2 {
   border-radius: inherit;
 }
 
-.article-block .article-image picture::after {
+.card .img-card-container::after {
   content: " ";
   display: block;
   position: absolute;
