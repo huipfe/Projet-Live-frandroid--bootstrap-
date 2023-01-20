@@ -248,12 +248,12 @@ h2 {
 }
 
 .article-block .article-image picture::after {
-  content: "";
+  content: " ";
   display: block;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 96%;
   height: 100%;
   background: linear-gradient(45deg, #5770ff, #b86bff);
   opacity: 0.5;
@@ -272,4 +272,8 @@ h2 {
 
 .little-article {
   width: 11.75rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*a picture img{
+width: 48%;
+}*//*# sourceMappingURL=style.css.map */
