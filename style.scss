@@ -416,3 +416,16 @@ width: 48%;
     margin-left: 348px;
 }
 
+/* scrolltop */
+.btn-scrolltop {
+
+    z-index: 1000;
+    position : fixed;
+    bottom : 15px;
+    width: 150px;
+    left : 50%;
+    margin-left : -75px; 
+
+    background-color: #2c3049;
+    box-shadow: 0.25rem 0.25rem 2rem rgba(87, 112, 255, .4);
+}
