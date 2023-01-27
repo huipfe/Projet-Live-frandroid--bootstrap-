@@ -84,11 +84,12 @@ a {
     background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
+
 .list-item-categorie {
-    min-width: 5rem;
     padding: 12px;
 }
 .list-item-categorie img {
+    min-width: 30px;
     max-width: 30px;
     display: inline-block;
 }
@@ -454,5 +455,8 @@ width: 48%;
     }
     .nav-item {
         padding: 3px;
+    }
+    .list-categorie {
+        justify-content: flex-start;
     }
 }
