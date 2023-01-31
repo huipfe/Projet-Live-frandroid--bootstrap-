@@ -189,6 +189,11 @@ list-style: none;
     font-size: 20px;
 }
 
+.megaMenu .megaMenu-categorie .megaMenu-categorie-content {
+    margin: auto;
+    width: fit-content;
+}
+
 .megaMenu .megaMenu-categorie-title {
     color: var(--wp--preset--color--luminous-vivid-amber);
     font-size: 25px;
